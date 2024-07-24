@@ -43,7 +43,7 @@ defmodule Adminable.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.6"},
-      {:phoenix_html, "~> 3.1"},
+      {:phoenix_html, "~> 4.0"},
       {:gettext, "~> 0.11"},
       {:ecto, "~> 3.0"},
       {:scrivener_ecto, "~> 2.0"},
