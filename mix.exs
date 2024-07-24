@@ -47,7 +47,7 @@ defmodule Adminable.MixProject do
       {:gettext, "~> 0.11"},
       {:ecto, "~> 3.0"},
       {:scrivener_ecto, "~> 2.0"},
-      {:harmonium, "~> 2.3"},
+      {:harmonium, github: "FillogicLabs/phoenix_harmonium", branch: "master"},
       {:jason, "~> 1.0"},
       {:ex_doc, "~> 0.20", only: :dev},
       {:excoveralls, "~> 0.10", only: :test}
